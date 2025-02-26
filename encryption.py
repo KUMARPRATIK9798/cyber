@@ -35,3 +35,12 @@ if __name__ == "__main__":
      message = input("Enter secret message: ")
      password = input("Enter a passcode: ")
      encrypt(image_path, message, password)
+
+
+
+
+output:
+PS D:\New folder (4)> python -u "d:\New folder (4)\encryption.py"
+Enter image path: rogue.jpg
+Enter secret message: qwertyuiop
+Enter a passcode: 789
