@@ -45,3 +45,12 @@ if __name__ == "__main__":
     entered_password = input("Enter passcode for Decryption: ")
     message_length = int(input("Enter the length of the original message: "))
     decrypt(encrypted_image_path, entered_password, message_length)
+
+
+
+output:
+PS D:\New folder (4)> python -u "d:\New folder (4)\decryption.py"
+Enter encrypted image path: encryptedImage.png
+Enter passcode for Decryption: 789
+Enter the length of the original message: 10
+Decrypted message: qwertyuiop
